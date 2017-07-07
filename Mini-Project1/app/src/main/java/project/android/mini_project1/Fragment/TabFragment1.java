@@ -46,9 +46,9 @@ public class TabFragment1 extends Fragment {
         items.add(new Item());
         items.add(new Item());
         items.add(new Item(R.drawable.prop, "부스트캠프-boostcamp", "6월 29일 오후6:58 ·", R.string.content1 ,28,"댓글 2개 공유 1회",R.drawable.content2));
+        items.add(new Item(R.drawable.prop2, "NAVER D2 Startup Factory", "11시간 ·", R.string.content4 ,131,"댓글 1개 공유 22회",R.drawable.content4,1));
         items.add(new Item(R.drawable.prop, "부스트캠프-boostcamp", "6월 13일 오후6:25 ·", R.string.content2 ,8, " ",R.drawable.content3));
         items.add(new Item(R.drawable.prop, "부스트캠프-boostcamp", "5월 21일 오후4:56 ·", R.string.content3 ,120,"댓글 7개",R.drawable.content1));
-
 
         layoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);

@@ -9,6 +9,7 @@ public class Item {
     int likeCCount;
     String replyCount;
     int contentImg;
+    int type;
 
     public Item(){};
 
@@ -20,6 +21,18 @@ public class Item {
         this.likeCCount = likeCCount;
         this.replyCount = replyCount;
         this.contentImg = contentImg;
+        this.type = 0;
+    }
+
+    public Item(int propImg, String name, String date, int content, int likeCCount, String replyCount, int contentImg, int type) {
+        this.propImg = propImg;
+        this.name = name;
+        this.date = date;
+        this.content = content;
+        this.likeCCount = likeCCount;
+        this.replyCount = replyCount;
+        this.contentImg = contentImg;
+        this.type = type;
     }
 
     public int getPropImg() {
@@ -76,5 +89,13 @@ public class Item {
 
     public void setContentImg(int contentImg) {
         this.contentImg = contentImg;
+    }
+
+    public int getType(){
+        return type;
+    }
+
+    public void setType(int type){
+        this.type = type;
     }
 }

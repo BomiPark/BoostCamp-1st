@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -69,7 +70,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             holder.btn2.setOnClickListener(clickListener);
             holder.btn3.setOnClickListener(clickListener);
 
-
+            if(item.getType() == 1)
+                holder.l1.setVisibility(View.VISIBLE);
         }
     }
 
@@ -111,6 +113,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         ImageView propImg, contentImg;
         TextView name,date, content, like, reply;
         Button btn1, btn2, btn3;
+        LinearLayout l1;
 
         public ViewHolder(View view) {
             super(view);
@@ -124,6 +127,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             btn1= (Button)view.findViewById(R.id.btn1);
             btn2= (Button)view.findViewById(R.id.btn2);
             btn3= (Button)view.findViewById(R.id.btn3);
+            l1 = (LinearLayout)view.findViewById(R.id.who);
         }
 
     }
