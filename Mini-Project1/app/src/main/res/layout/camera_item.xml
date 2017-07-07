@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="89dp"
+    android:id= "@+id/layout1"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="17dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:src="@drawable/camera"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:text="@string/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="11sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:id="@+id/textView3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp">
+
+        <View
+            android:layout_width="0.8dp"
+            android:layout_height="40dp"
+            android:background="@color/gray"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"
+                android:src="@drawable/my"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:text="내 스토리"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:id="@+id/textView4" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

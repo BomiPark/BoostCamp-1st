@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mini-Project1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="camera">카메라</string>
+    <string name="frag1">박보미님, 업데이트를 공유하시겠어요? </string>
+    <string name="content0">부스트캠프 2기 지필 시험 안내 \n 부스트 캠프 지원서 마감임박!!  \n서둘러 지원서와 과제를 제출해주세요\n\n 지원서 제출자 *전원*이 응시 대상입니다. \n과정별 시험과목 및 시험범위는 홈페이지를..  </string>
+    <string name="content1"><b>부스트캠프</b> 2기는 누구? 바로 나야, 나!!!😎 \n바로 오늘 부캠2기 <b>#오리엔테이션</b>이 열렸습니다.\n 교육에 임하는 단단한 각오와 함께, \n본격적으로 부스트부스트~ 달려보겠습니다! \n🚗=3333 </string>
+    <string name="content2"> 🌸부스트캠프 <b>#안드로이드</b> 과정 1차 합격자 발표🌸 \n부스트캠프 지필고사에 응해주신 분들 모두 수고\n많으셨습니다! \n\n 지금 부스트캠프 홈페이지에서 안드로이드 과정 \n1차 합격자를 확인하실 수 있으며, iOS/Web 과정 \n합격자는 6월 16일에 발표될 예정입니다 \n\n</string>
+    <string name="content3">[<b>#부스트캠프2기</b> 지필시험 안내] \n부스트캠프 지원서 <b>#마감임박!!</b> \n서둘러 지원서와 과제를 제출해주세요 \n(지원서 마감일 6월 6일) \n\n지원서 제출자 *전원*이 응시 대상입니다 \n </string>
+</resources>
