@@ -116,6 +116,7 @@
             android:layout_gravity="center"
             app:srcCompat="@drawable/detail6"
             android:visibility="gone"
+            android:layout_marginRight="7dp"
             android:id="@+id/imageView"
             android:layout_weight="1" />
 
