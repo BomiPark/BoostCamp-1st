@@ -78,7 +78,7 @@
 
             <TextView
                 android:text="부스트캠프-boostcamp"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:textStyle="bold"
@@ -105,8 +105,19 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/detail5"
                     android:id="@+id/imageView2"/>
+
             </LinearLayout>
+
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/detail6"
+            android:visibility="gone"
+            android:id="@+id/imageView"
+            android:layout_weight="1" />
 
     </LinearLayout>
 

@@ -70,8 +70,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             holder.btn2.setOnClickListener(clickListener);
             holder.btn3.setOnClickListener(clickListener);
 
-            if(item.getType() == 1)
+            if(item.getType() == 1) {
                 holder.l1.setVisibility(View.VISIBLE);
+                holder.like.setText("박예인님 외 " + item.getLikeCCount() + "명");
+                holder.i.setVisibility(View.VISIBLE);
+            }
         }
     }
 
@@ -110,7 +113,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView propImg, contentImg;
+        ImageView propImg, contentImg, img, i;
         TextView name,date, content, like, reply;
         Button btn1, btn2, btn3;
         LinearLayout l1;
@@ -128,6 +131,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             btn2= (Button)view.findViewById(R.id.btn2);
             btn3= (Button)view.findViewById(R.id.btn3);
             l1 = (LinearLayout)view.findViewById(R.id.who);
+            img = (ImageView)view.findViewById(R.id.imageView5);
+            i =(ImageView)view.findViewById(R.id.imageView);
         }
 
     }
